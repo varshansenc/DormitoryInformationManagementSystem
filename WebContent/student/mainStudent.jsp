@@ -7,6 +7,7 @@
 <title></title>
 <link href="/w/css/style.css" rel="stylesheet" type="text/css" />
 <link href="/w/css/calendar.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="/w/js/jquery.js"></script>
 <script src="/w/js/common.js"></script>
 <script type="text/javascript" src="/w/js/open.js"></script>
 <script type="text/javascript" src="/w/js/time.js"></script>
@@ -164,7 +165,7 @@
 	
 	</div>
 	
-	<span class="display" id="display"><b><i><%=str %></i></b></span>
+	<span class="display" id="display"><b><i><%=str %></i></b></span><%  %><%--  --%>
 	
 	</div>
 
@@ -174,6 +175,7 @@
 
 
 
+<script type="text/javascript" src="/w/js/jquery.js"></script>
 <script type="text/javascript" src="/w/js/calendar.js"></script>
 <script type="text/javascript" src="/w/js/ajax.js"></script>
 <script type="text/javascript" src="/w/js/lunbo.js"></script>

@@ -8,6 +8,7 @@
 <link href="/w/css/style.css" rel="stylesheet" type="text/css" />
 <link href="/w/css/calendar.css" rel="stylesheet" type="text/css">
 
+<script type="text/javascript" src="/w/js/jquery.js"></script>
 <script src="/w/js/common.js"></script>
 <script type="text/javascript" src="/w/js/open.js"></script>
 <script type="text/javascript" src="/w/js/time.js"></script>
@@ -261,7 +262,7 @@
 	<div style="background-color: rgba(0,0,0);color: white;" class="loginbm">版权所有  2018  <a href="http://jwc.zua.edu.cn">郑州航院</a>  仅供学习交流，勿用于任何商业用途</div>
 
 </body>
-
+<script type="text/javascript" src="/w/js/jquery.js"></script>
 <script type="text/javascript" src="/w/js/calendar.js"></script>
 <script type="text/javascript" src="/w/js/ajax.js"></script>
 <script type="text/javascript" src="/w/js/lunbo.js"></script>

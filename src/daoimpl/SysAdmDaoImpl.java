@@ -46,7 +46,7 @@ public class SysAdmDaoImpl implements SysAdmDao {
 	@Override
 	public SysAdm searchSysAdmDao(String sysadmno) {
 		SysAdm sysAdm=new SysAdm();
-		sql="select * from sysadm where sysadmno='"+sysadmno+"'";
+		sql="select * from sysadm where sysno='"+sysadmno+"'";
 		try {
 			connection2=connection.GetConnection();
 			preparedStatement=connection2.prepareStatement(sql);
@@ -77,7 +77,7 @@ public class SysAdmDaoImpl implements SysAdmDao {
 	@Override
 	public int alterSysAdmDao(String sysadmno, String string, String sysadmfieldvalue) {
 		int i=0;
-		sql="update sysadm set "+string+"='"+sysadmfieldvalue+"' where sysadmno='"+sysadmno+"'";
+		sql="update sysadm set "+string+"='"+sysadmfieldvalue+"' where sysno='"+sysadmno+"'";
 		try {
 			connection2=connection.GetConnection();
 			preparedStatement=connection2.prepareStatement(sql);
